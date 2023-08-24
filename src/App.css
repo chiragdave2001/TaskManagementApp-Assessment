@@ -1,0 +1,185 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container1 {
+  background-color: #002155;
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-wrapper {
+  background-color: #292f38;
+  width: 35%;
+  min-width: 450px;
+  height: 600px;
+  padding: 30px;
+  box-sizing: border-box;
+  border: solid 5px rgb(87, 0, 109);
+  border-radius: 25px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.header h1 {
+  color: #00ccff;
+  font-weight: 300;
+  text-align: center;
+  margin: 40px 20px 50px 20px;
+  font-family: 'Kaushan Script', cursive;
+  text-shadow: 3px 3px 10px rgb(126, 3, 3);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.list {
+  width: 90%;
+  margin: auto;
+  max-height: 300px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  color: transparent;
+}
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #aaa;
+} */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 10px;
+} */
+
+.task-input {
+  width: 350px;
+  min-width: 250px;
+  padding: 15px 10px 10px 20px;
+  margin-right: 10px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 15px;
+  color: #00ccff;
+  background-color: #1d222b;
+  border: 1px solid rgb(116, 1, 145);
+  outline: none;
+  border-radius: 20px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.buttons {
+  display: flex;
+}
+
+.btn {
+  margin: 5px;
+  color: #bbb;
+}
+
+.add-task-btn {
+  min-width: 100px;
+  background-color: #60008a;
+  color: #ccc;
+  border: none;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 16px;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  outline: none;
+  cursor: pointer;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding-bottom: 5px;
+}
+
+.list-item span {
+  color: #00ccff;
+  font-size: 22px;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 200;
+}
+
+.clear-btn , .task-btn {
+  width: 115px;
+  height: 35px;
+  background-color: #60008a;
+  color: #ccc;
+  border: none;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 14px;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  outline: none;
+  cursor: pointer;
+}
+
+.no-tasks {
+  color: #777;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.btn-edit{
+  width: 70px;
+}
+
+.btn-login{
+  width: 115px;
+  height: 35px;
+  background-color: #60008a;
+  border: none;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 14px;
+  border-radius: 20px;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); */
+  /* outline: none; */
+  cursor: pointer;
+}
+.input{
+  width: 300px;
+  margin-left: 15px;
+}
+.btn-comp{
+  width: 125px;
+  /* padding: 0px; */
+}
+.btn-align{
+  position: relative;
+  left: 110px;
+}
+.form-login{
+  position: relative;
+  top:0px;
+  color: #00ccff;
+  font-size: 16px;
+  font-family: 'Kaushan Script', cursive;
+}
